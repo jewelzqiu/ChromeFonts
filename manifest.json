@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/2yahei.css" ],
+      "matches": [ "<all_urls>" ]
+   } ],
+   "description": "替换网页中的中文字体为微软雅黑(文泉驿微米黑)",
+   "manifest_version": 2,
+   "name": "中文字体",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}
